@@ -1,0 +1,123 @@
+.formfield{
+    margin-top: 100px;
+}
+
+fieldset{
+    background-color: #101010;
+    height: 250px;
+    border-radius: 7px;
+}
+
+legend{
+    background-color: #151515;
+    color: #66fcf1;
+    padding: 10px;
+    display: inline-block;
+    border-left: 3px solid #45a29e;
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+.selectforms{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+}
+
+.checkforms{
+    display: block;
+    width: 100%;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+input[type="checkbox"]{
+    margin-left: 20px;
+}
+
+.checkforms label{
+    font-size: 20px;
+}
+
+select{
+    width: 200px;
+    border: 2px solid #45a29e;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    color: #c5c6c7;
+    background-color: transparent;
+    border: 2px solid #45a29e;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    top: 70px;
+    margin-right: 50px;
+}
+
+.resultbox{
+    margin-top: 100px;
+}
+
+.resultbox h3{
+    border-left: 3px solid #45a29e;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.carbox{
+    border-left: 3px solid #45a29e;
+    margin-left: 40px;
+}
+
+.picbox{
+    width: 130px;
+}
+
+.infobox{
+    border-left: 3px solid #45a29e;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.infobox p, .infobox img{
+    float: left;
+    display: block;
+    width: auto;
+}
+
+.infobox img{
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.titlebox p{
+    font-size: 1.4em;
+}
+
+.infobox p{
+    padding-top: 13px;
+    font-size: 1.1em;
+}
+
+.pricebox{
+    text-align: right;
+}
+
+.pricebox p{
+    line-height: 0.8;
+    margin-top: 17px;
+    font-size: 1.3em;
+}
+
+.pricebox i{
+    color: #66fcf1;
+    margin-left: 5px;
+    font-size: 1em;
+}

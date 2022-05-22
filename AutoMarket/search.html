@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+
+    <!-- Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Cars, Cars for sale, Autok, Auto elado, hasznaltauto, masini, masini de vanzare,automarket">
+    <meta name="description" content="A site which collects all car sales over all Europe, so you can save time looking for your next dream car!">
+    <meta name="author" content="Reico">
+    <!---->
+
+    <title>To be choosed...</title>
+    <link rel="icon" href="">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    
+</head>
+
+<body>
+    
+    <div class="container-xxl main">
+        
+        <div class="row header">
+
+            <div class="col">
+                <div class="logo">
+                    <img src=icon.png alt="Car icon">
+                    <h1>AutoMarket</h1>
+                    <h2>,,The best auto is a nice auto"</h2>
+                </div>
+            
+            </div>
+
+            <div class="col topmenu">
+                
+                <ul>
+                    
+                    <li><a href="loginpage"><img src="icons/human.png" alt="humanicon" width="50px"></a>Please <a href="login.html">Log in</a></li>
+                    <li><a href="savedpage"><img src="icons/saved.png" alt="savedicon" width="50px"></a></li>
+                    <li><a href="sharepage"><img src="icons/chain.png" alt="shareicon" width="50px"></a></li>
+                    <li><img src="icons/globe.png" alt="globeicon"><a href="lang"><p>EN</p></a></li>
+                    
+                </ul>
+                
+            </div>
+
+        </div>
+        
+        <div class="row formfield">
+            <form action="#" method="get">
+
+                <fieldset>
+
+                    <legend>Search:</legend>
+                    <div class="row formpart1">
+
+                    <div class="col selectforms">
+
+                    <label for="fmake">Make:</label><br>
+                    <select name="cars" id="makes">
+                        <!-- tbc-->
+                    </select>
+                        
+                    </div>
+                    
+                    <div class="col selectforms">
+                        <label for="ftype">Type:</label><br>
+                        <select name="type" id="types">
+                        
+                        </select>
+                    </div>
+                    
+                    <div class="col selectforms">
+                        <label for="fminyear">From:</label><br>
+                        <select name="minyear" id="minyear">
+                        
+                        </select>
+                    </div>
+                    
+                    <div class="col selectforms">
+                        <label for="fmaxyear">To:</label><br>
+                        <select name="maxyear" id="maxyear">
+                        
+                        </select>
+                    </div>
+
+                    </div>
+                    
+                    
+                    <div class="row formpart2">
+                    
+                    <div class="col checkforms">
+
+                        <input type="checkbox" id="butbenzin" name="butbenzin" value="True">
+                        <label for="butbenzin">Benzin</label>
+                        <input type="checkbox" id="butdizel" name="butdizel" value="True">
+                        <label for="butdizel">Dizel</label>
+                        <input type="checkbox" id="butlpg" name="butlpg" value="True">
+                        <label for="butlpg">Lpg</label>
+                        <input type="checkbox" id="butelec" name="butelec" value="True">
+                        <label for="butelec">Electric</label>
+                        <input type="checkbox" id="buthyb" name="buthyb" value="True">
+                        <label for="buthyb">Hybrid</label>
+
+                    </div>
+                    <div class="col">
+
+                        <input type="submit" id="submit" name="submitbut" value="Search">
+
+                    </div>
+                    </div>
+                </fieldset>
+
+            </form>
+            
+            <div class="row resultbox">
+
+            <h3>Result:</h3>
+                
+                <div class="row results">
+                    <div class="row carbox">
+
+                        <div class="col-1 picbox">
+                            <img src="bg.png" width=100px height=100px>
+                        </div>
+                        
+                        
+                        <div class="col-6 contentbox">
+
+                            <div class="row titlebox">
+                                <p>Példa Dacia</p>
+                            </div>
+                            
+                            <div class="row infobox">
+                                <p>2021</p>
+                                <p>1900CM3</p>
+                                <p>670HP</p>
+                                <img src="icons/place.png" alt="placeicon" width="60px" height="60px">
+                                <p>Place</p>
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-3 pricebox">
+                            <p>1900<i>RON</i></p>
+                            <p>2000<i>EUR</i></p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="row align-items-end footer">
+            <div class="col-3 info">
+                <h4>Info</h4>
+                <ul>
+                    <li><a href="termsofservice">Terms of Service</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="info">Info</a></li>
+                </ul>
+            </div>
+            <div class="col-5 sites">
+                <h3>Partnership</h3>
+                <img src="icons/globe.png" width="60px;">
+                <img src="icons/globe.png" width="60px;">
+                <img src="icons/globe.png" width="60px;">
+                <img src="icons/globe.png" width="60px;">
+                <img src="icons/globe.png" width="60px;">
+                <img src="icons/globe.png" width="60px;">
+            </div>
+            <div class="col-4 align-self-end siteinfo">
+                <h4>Site Info</h4>
+                <p><i>Creator:</i> Reico</p>
+                <p><i>Version:</i> 1.0V</p>
+                <p><i>&copy;All Rights Reserved</i></p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <nav onclick="navopen()">
+        <i class="fas fa-angle-double-right" style="color: #45a29e;"></i>
+    </nav>
+    
+    <div class="navbox" style="display: none;">
+        <i class="far fa-times-circle fa-lg" style="color: #45a29e;" onclick="navopen()"></i>
+        <ul>
+            <li><a href="search.html"><img src="icons/zoom.png" alt="searchicon" width="60px"><p>Search</p></a></li>
+            <li><img src="icons/human.png" alt="humanicon" width="60px"><p>Account</p></li>
+            <li><img src="icons/upload.png" alt="uploadicon" width="60px"><p>Post</p></li>
+            <li><img src="icons/question.png" alt="searchicon" width="60px"><p>Info</p></li>
+            <li><img src="icons/zoom.png" alt="searchicon" width="60px"><p>Contact</p></li>
+        </ul>
+        
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="javascript/main.js"></script>
+
+</body>
+</html>
